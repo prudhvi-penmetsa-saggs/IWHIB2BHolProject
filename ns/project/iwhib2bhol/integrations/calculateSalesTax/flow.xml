@@ -1642,8 +1642,8 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="Flow" SERVICE="pub.flow:getLastFailureCaught">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </SEQUENCE>
 </FLOW>
