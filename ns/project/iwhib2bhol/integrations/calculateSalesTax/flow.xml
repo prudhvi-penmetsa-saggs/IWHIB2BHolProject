@@ -916,7 +916,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Math" SERVICE="pub.math:divideFloats" DISABLED="true">
+<INVOKE NAME="Math" SERVICE="pub.math:divideFloats">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1278,7 +1278,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Math" SERVICE="pub.math:addInts" DISABLED="true">
+<INVOKE NAME="Math" SERVICE="pub.math:addFloats">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1292,7 +1292,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">addIntsInput</value>
+    <value name="field_name">addFloatsInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -1317,6 +1317,18 @@
         <value name="field_name">num2</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">precision</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -1593,7 +1605,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">addIntsOutput</value>
+    <value name="field_name">addFloatsOutput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -1622,16 +1634,10 @@
 <MAPCOPY FROM="/value;1;0" TO="/orderTotal;1;0">
 </MAPCOPY>
 
-<MAPDELETE FIELD="/num1;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/num2;1;0">
+<MAPDELETE FIELD="/orderAmount;1;0">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/value;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/orderAmount;1;0">
 </MAPDELETE>
 </MAP>
 </INVOKE>

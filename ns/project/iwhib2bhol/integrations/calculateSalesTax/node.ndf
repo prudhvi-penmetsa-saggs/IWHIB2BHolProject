@@ -148,7 +148,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Prudhvi.Penmetsa@ibm.com</value>
-    <value name="lastModifiedDate">1782254605182</value>
+    <value name="lastModifiedDate">1782254728359</value>
     <value name="displayName">calculateSalesTax</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -292,9 +292,10 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">addInts</value>
-          <value name="serviceName">pub.math:addInts</value>
           <value name="transformerSupport">true</value>
+          <value name="displayName">addFloats</value>
+          <value name="serviceName">pub.math:addFloats</value>
+          <Boolean name="enabled">true</Boolean>
         </record>
         <value name="nodePathNew">0.5</value>
         <number name="nodeIndex" type="Long">5</number>
