@@ -916,7 +916,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Math" SERVICE="pub.math:divideFloats">
+<INVOKE NAME="Math" SERVICE="pub.math:divideFloats" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1278,7 +1278,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Math" SERVICE="pub.math:addInts">
+<INVOKE NAME="Math" SERVICE="pub.math:addInts" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
