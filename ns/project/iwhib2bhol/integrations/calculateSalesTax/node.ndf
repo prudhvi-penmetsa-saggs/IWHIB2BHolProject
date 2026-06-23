@@ -147,16 +147,10 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">prudhvi.penmetsa@ibm.com</value>
-    <value name="lastModifiedDate">1782252173702</value>
+    <value name="lastModifiedBy">Prudhvi.Penmetsa@ibm.com</value>
+    <value name="lastModifiedDate">1782253384629</value>
     <value name="displayName">calculateSalesTax</value>
     <value name="description"></value>
-    <array name="appList" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="providerName">WmJDBCAdapter</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-      </record>
-    </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="name">TRY</value>
@@ -197,39 +191,15 @@
         <value name="nodePathForDebug">0.1</value>
       </record>
       <record name="/0/1/0" javaclass="com.wm.util.Values">
-        <value name="itemType">APPS</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-        <value name="name">Database</value>
-        <value name="providerName">WmJDBCAdapter</value>
-        <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">getTaxRate</value>
-          <value name="isCustom">true</value>
-          <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.b2bhol</value>
-        </record>
-        <value name="appType">predefined</value>
-        <Boolean name="hasAccount">true</Boolean>
-        <Boolean name="allowCustomOperations">true</Boolean>
-        <value name="allowDeleteApplication">false</value>
-        <value name="allowUpdateApplication">false</value>
-        <null name="certified"/>
-        <Boolean name="deprecated">false</Boolean>
-        <value name="description">Database Application enables you to perform database operation</value>
-        <null name="icon"/>
-        <value name="packageName">WmJDBCAdapter</value>
-        <value name="type">Adapters</value>
-        <value name="version">1.0</value>
-        <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_TaxDB</value>
-          <value name="connectionType">sagcloud</value>
-          <null name="description"/>
-        </record>
-        <value name="connectionNSName">project.iwhib2bhol.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_TaxDB</value>
-        <value name="connectionType">sagcloud</value>
-        <Boolean name="accountReferenceResolved">true</Boolean>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <value name="nodePathNew">0.1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <number name="ui_step_index" type="Long">4</number>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
         </array>
@@ -237,18 +207,8 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <null name="mapSet"/>
-        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <number name="ui_step_index" type="Long">4</number>
-        <value name="nodePathNew">0.1.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">4</number>
-        <null name="outputMapSet"/>
-        <value name="nodePathForDebug">0.1.0</value>
       </record>
+      <null name="/0/1/0/0"/>
       <record name="/0/2" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
@@ -260,7 +220,7 @@
       <record name="/0/2/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">7</number>
+        <number name="ui_step_index" type="Long">6</number>
         <value name="nodePathNew">0.2.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">6</number>
@@ -354,16 +314,10 @@
       </record>
       <null name="/1/0"/>
     </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
-    <value name="createdDate">1782252173702</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">
