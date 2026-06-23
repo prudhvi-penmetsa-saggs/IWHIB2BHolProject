@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: IWHIB2BHolProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: process Sales Order
+    type: workflow
+    uid: fl64cba4ef4910484bb31003b502194b37
+    stepId: a25
+    reference: project.b2b_hol.integrations:calculateSalesTax
