@@ -8,6 +8,11 @@
         <value name="value">https://prod958588.a-vir-r1.int.ipaas.automation.ibm.com/runflow/run/sync/v2/2zWpyJ8ayA</value>
         <value name="isSecure">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">edi850_workflow_webhook_key</value>
+        <value name="value">fl644cfcddeeba4c1086898b04fd6b3dc4</value>
+        <value name="isSecure">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
