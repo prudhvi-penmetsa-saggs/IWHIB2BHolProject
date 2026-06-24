@@ -13,6 +13,11 @@
         <value name="value">fl644cfcddeeba4c1086898b04fd6b3dc4</value>
         <value name="isSecure">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">X_INSTANCE_API_KEY</value>
+        <value name="value">azI6YzE2ZDAxMDEtNmY0ZS00ZDMyLWI3MmYtZmY2NmU3ZmNkNmMyOlUzM1gzMC84a0dNY3V4STBKbUFIUFdEL085N3M2WkVaYThUSU12NnRROW89</value>
+        <value name="isSecure">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
