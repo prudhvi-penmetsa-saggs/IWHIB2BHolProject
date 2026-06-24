@@ -8,3 +8,8 @@ runtimes:
     uid: fldd45408c0a3b4325b04711a030b55617
     stepId: a27
     reference: project.iwhib2bhol.integrations:calculateSalesTax
+  - name: process Sales OrderV2
+    type: workflow
+    uid: flc7cf26e7a78b436ab815eabda387b592
+    stepId: a27
+    reference: project.iwhib2bhol.integrations:calculateSalesTax
